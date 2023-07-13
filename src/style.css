@@ -1,42 +1,48 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-html{
-    height: 100vh;
-    background: linear-gradient(rgb(164, 164, 250),20%,pink);
+html {
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    hsla(195, 86%, 72%, 1) 0%,
+    hsla(340, 47%, 77%, 1) 31%,
+    hsla(341, 45%, 83%, 1) 71%,
+    hsla(210, 100%, 100%, 1) 100%
+  );
 }
-.heading{
-    font-size: 2.2rem;
-    font-weight: 900;
-    text-shadow: 5px 5px 5px aqua;
+.heading {
+  font-size: 2.2rem;
+  font-weight: 900;
+  text-shadow: 5px 5px 5px aqua;
 }
-.main{
-    text-align: center;
+.main {
+  text-align: center;
 }
-.components{
-    margin-top: 60px;
+.components {
+  margin-top: 60px;
 }
-.btn1,.btn2{
-    height: 70px;
-    width: 330px;
-    border: 2px solid black;
-    border-radius: 40px;
-    margin-top: 40px;
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 10px;
+.btn1,
+.btn2 {
+  height: 70px;
+  width: 330px;
+  border: 2px solid black;
+  border-radius: 40px;
+  margin-top: 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px;
 }
-.btn1:hover{
-    background-color: aqua;
+.btn1:hover,
+.btn2:hover {
+  background-color: rgb(158, 249, 255);
 }
-.btn2:hover{
-    background-color: rgb(132, 0, 255);
+
+.btn1 {
+  background-color: rgb(158, 232, 255);
+  margin-right: 40px;
 }
-.btn1{
-    background-color: aquamarine;
-    margin-right: 40px;
-}
-.btn2{
-    background-color: blueviolet;
-    margin-left: 50px;
+.btn2 {
+  background-color: rgb(158, 232, 255);
+  margin-left: 50px;
 }

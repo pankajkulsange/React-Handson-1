@@ -1,28 +1,28 @@
-*{
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-.functional,.class{
-    text-align: center;
-    height: 300px;
-    width: 45%;
-    border: 2px solid black;
-    border-radius: 30px;
-    padding: 45px 30px 0px;
+.functional,
+.class {
+  text-align: center;
+  height: 300px;
+  width: 45%;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 45px 30px 0px;
 }
-.functional{
-    position: absolute;
-    left: 30px;
-    background-color: aquamarine;
-    display: inline-block;
+.functional {
+  position: absolute;
+  left: 30px;
+  background-color: rgb(119, 239, 255);
+  display: inline-block;
 }
-.class{
-    position: absolute;
-    right: 30px;
-    background-color: blueviolet;
-    display: inline-block;
+.class {
+  position: absolute;
+  right: 30px;
+  background-color: rgb(232, 119, 255);
+  display: inline-block;
 }
-p{
-    font-size: 1.3rem;
+p {
+  font-size: 1.3rem;
 }
-
